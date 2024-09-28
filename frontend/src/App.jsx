@@ -10,7 +10,7 @@ import Login from './pages/Login';
 import Orders from './pages/Orders';
 import PlaceOrder from './pages/Placeorder';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import Footer from './components/Footer';
 
 const Hello = () => {
   return (
@@ -27,6 +27,7 @@ const Hello = () => {
         <Route path='/place-order' element={<PlaceOrder/>} />
         <Route path='/orders' element={<Orders/>} />
       </Routes>
+      <Footer/>
     </div>
   )
 }
